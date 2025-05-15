@@ -1,17 +1,11 @@
-body {
-    
+body {  
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
-nav nav-link:hover {
-    color: #e6a563;
-}
 a:hover {
     opacity: 0.8;
 }
-
 /**Home Page**/
 nav img {
     width: 300px;
@@ -36,4 +30,14 @@ nav .nav-link:hover {
 #contact{
     background-color:#F8F9FB;
 }
+.btn-primary {
+    background-color:#e6a563;
+    border-color:#e6a563;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #e6a563;
+    color: #e6a563;
+}
+
 
